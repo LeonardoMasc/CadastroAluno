@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marca {
+    color: white;
+    font-size: 30px;
+    padding: 20px 50px;
+    background-color: #232323;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url("../img/fundobody.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.form {
+    width: 50%;
+    float: left;
+}
+
+.exibir {
+    width: 50%;
+    float: left;
+}
+
+.tudo {
+    display: flex;
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.rodape {
+    text-align: center;
+    background: #232323;
+    color: white;
+    line-height: 96px;
+    height: 90px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.botao {
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #9dcddb;
+}
+
+.botao:hover {
+    background-color: #83b7e2;
+}
+
+.user {
+    cursor: pointer;
+    line-height: 2;
+}
+
+.cad {
+    line-height: 2;
+}
